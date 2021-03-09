@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/img/thumbnail.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-color: rgba(96, 96, 96,0.6);
+    height: 80px;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li {
+    float: left;
+    padding-left:30px ;
+    font-size: x-large;
+    position: relative;
+    bottom:8px;
+    right: 50px;
+    
+}
+nav ul li a {
+    color: #eee;
+}
+h1{
+    font-size: xx-large;
+    color: #eee;
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
+#studentTable{
+    border: 1px solid black;
+    width: 100%;
+    color: #eee;
+
+}
+.line{
+    border-top: 1px #eee solid;
+}
+
+.form{
+    margin-top:200px;
+    width: 50%;
+    background-color: rgba(96, 96, 96,0.6);
+}
+.container{
+    width: 100%;
+   
+}
+.table{
+    width: 50%;
+    background-color: rgba(96, 96, 96,0.6);
+    float: right;
+    position: relative;
+    bottom:175px;
+}
+#studentTable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #studentTable td, #studentTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  #studentTable tr:hover {background-color: #ddd;}
+  
+  #studentTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+#form{
+    text-align: center;
+    padding: 20px;
+}
+label{
+    color:#eee;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  footer{
+      width: 100%;
+      height: 80px;
+    background-color: rgba(96, 96, 96,0.6);
+
+      
+  }
+  footer p {
+      text-align: center;
+        font-size: xx-large;
+        position: relative;
+        top: 0;
+    }
+
+h4 {
+    text-align: center;
+    color: #eee;
+    padding: 20px;
+    font-size: x-large;
+}
+h4 span{
+    color: #eee;
+    font-size: larger;
+}
