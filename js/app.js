@@ -35,6 +35,7 @@ function render() {
   let total = 0;
   if (allStudentinLocal) {
     allStudent = allStudentinLocal;
+    tableBody.textContent='';
     for (let i = 0; i < allStudent.length; i++) {
       let studentInfo = document.createElement('tr');
       tableBody.appendChild(studentInfo);
